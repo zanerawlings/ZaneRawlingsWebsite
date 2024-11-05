@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acacac; /* Change this to your desired background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eaeaea; /* Change this to your desired container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the container */
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: #000000; /* Change this to your desired heading color */
+}
+
+p {
+    margin-bottom: 20px;
+    color: #313131; /* Change this to your desired paragraph color */
+}
+
+a {
+    color: #007bff; /* Change this to your desired link color */
+}
+
+/* Profile picture style */
+.profile-pic {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    float: right;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
